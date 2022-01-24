@@ -1,5 +1,6 @@
-import { useDrag } from 'react-dnd'
-import { DraggableTextBox } from "./DraggableTextBox"
+import { DraggableBox } from "./DraggableBox"
+import { DraggableText } from "./DraggableText"
+
 
 export const DraggableItems = () => {
 
@@ -8,7 +9,8 @@ export const DraggableItems = () => {
         <h2>Draggable items</h2>
 
         <div className="">
-            <DraggableTextBox />
+            <DraggableText />
+            <DraggableBox />
         </div>
     </div>
 }
